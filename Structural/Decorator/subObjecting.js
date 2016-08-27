@@ -1,4 +1,4 @@
-//example decorator pattern
+//creating a sub class
 
 var Task = function (name) {
   this.name = name;
@@ -39,3 +39,8 @@ var ut = new UrgentTask('this is urgent', 1);
 ut.complete();
 ut.save()
 console.log(ut);
+
+let u2to = new UrgentTask('my new name is is ut2',  0) ;
+u2to.complete()
+u2to.save()
+console.log(u2to)
